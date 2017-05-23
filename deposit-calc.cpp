@@ -72,5 +72,5 @@ int main()
 				cout << "Vasha summa cherez " << date2 <<" dney: " << sum;
 			}
 		}
-	return 0;
+	 return 0;
 }
