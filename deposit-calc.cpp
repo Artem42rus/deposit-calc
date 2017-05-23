@@ -9,18 +9,18 @@ int main()
 	cin >> sum;
 	if (sum > 0 && sum < 10000 )
 		{
-			cout << endl << "Vy vveli nevernuyu summu, minimal'naya summa vznosa 10 000. Pozhaluysta vvedite korrektnuyu summu" << endl;
-			cin >> sum;
+			 cout << endl << "Vy vveli nevernuyu summu, minimal'naya summa vznosa 10 000. Pozhaluysta vvedite korrektnuyu summu" << endl;
+		 	 cin >> sum;
 		}
 	if (sum >= 10000 && sum <= 100000)
 		{
-			cout << endl << "Vvedite srok vklada (ne boleye 365 dney):" << endl;
-			cin >> date1;
-			if (date1 > 365)
-			{
+			 cout << endl << "Vvedite srok vklada (ne boleye 365 dney):" << endl;
+			 cin >> date1;
+		    	if (date1 > 365)
+			 {
 				cout << "Vvedite srok vklada, ne boleye 365 dney" << endl;
 				cin >> date1;
-			}
+		     }
 			if (date1 >= 0 && date1 <= 30)
 			{
 				sum = sum - sum/10;
