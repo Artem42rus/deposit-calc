@@ -17,30 +17,30 @@ int main()
 			 cout << endl << "Vvedite srok vklada (ne boleye 365 dney):" << endl;
 			 cin >> date1;
 		    	if (date1 > 365)
-			 {
+			    {
 				cout << "Vvedite srok vklada, ne boleye 365 dney" << endl;
 				cin >> date1;
-		     }
-			if (date1 >= 0 && date1 <= 30)
-			{
+		        }
+		    	if (date1 >= 0 && date1 <= 30)
+		     	{
 				sum = sum - sum/10;
 				cout << "Vasha summa cherez " << date1 <<" dney: " << sum;
-			}
-			if (date1 >= 31 && date1 <= 120)
-			{
+			    }
+			    if (date1 >= 31 && date1 <= 120)
+			    {
 				sum = sum + (sum/100)*2;
 				cout << "Vasha summa cherez " << date1 <<" dney: " << sum;
-			}
-			if (date1 >= 121 && date1 <= 240)
-			{
+		        }
+		     	if (date1 >= 121 && date1 <= 240)
+			    {
 				sum = sum + (sum/100)*6;
 				cout << "Vasha summa cherez " << date1 <<" dney: " << sum;
-			}
-			if (date1 >= 241 && date1 <= 365)
-			{
+			    }
+		     	if (date1 >= 241 && date1 <= 365)
+			    {
 				sum = sum + (sum/100)*12;
 				cout << "Vasha summa cherez " << date1 <<" dney: " << sum;
-			}
+		     	}
 		}
 	if (sum >= 100000)
 		{
